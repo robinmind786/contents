@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background: #F0F0F0;
+}
+
+/*.container {
+	margin: 5rem 10rem;
+	overflow: hidden;
+	padding: 0 20px;
+}*/
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/*link, button, word style*/
+
+.clr {
+	clear: both;
+}
+.text-primary {
+	color: #C1A57B;
+}
+
+.box-1, .box-2, .box-3 {
+	background: #F0F0F0;
+	padding: 1rem 1rem;
+	border-radius: 5px;
+}
+
+.box-1:hover {
+	background: #3b5998;
+	color: #fff;
+	transition: 2s;
+}
+
+.box-2:hover {
+	background: #00acee;
+	color: #fff;
+	transition: 2s;
+
+}
+
+.box-3:hover {
+	transition: 2s;
+	background: #E60023;
+	color: #fff;
+}
+
+.box-4:hover {
+	transition: 2s;
+	background: #E60023;
+	color: #fff;
+}
+
+
+/*alert header*/
+#alert-header .alert-header-content {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+	color: #333;
+}
+
+/*navbar*/
+#navbar ul{
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0 0 0;
+	list-style: none;
+}
+
+#navbar ul li {
+	padding: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current {
+	color: #C1A57B;
+	transition: 1s;
+}
+
+/*showcase*/
+#showcase {
+	margin: 5rem 8rem;
+	background: url('../img/04.jpg') no-repeat center center/cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 600px;
+	flex-basis: 200px;
+
+}
+
+#showcase .showcase-content  {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background: #fff;
+	height: 50%;
+	width: 50%;
+	margin-bottom: 1.5rem;
+	line-height: 2em;
+	font-family: 'Playfair Display', serif;
+	z-index: 1;
+}
+
+
+
+
+
+
+/*food and drinks*/
+
+#food-and-drink .food-item {
+	height: auto;
+	margin: 1rem 6rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#food-and-drink h1 {
+	text-align: center;
+}
+#food-and-drink .food-style {
+	border-bottom: 5px solid #C1A57B;
+}
+
+#food-and-drink .food-item  .box{
+	color: #333;
+	padding: 1rem;
+	text-align: center;
+	flex: 1;
+	font-family: 'Playfair Display', serif;
+}
+
+.item-1 img{
+	width: 250px;
+	height: 200px;
+}
+
+/*lifestyle content*/
+
+#lifestyle {
+	margin: 5rem 8rem;
+}
+#lifestyle .lifestyle-heading {
+	display: flex;
+	justify-content: space-between;
+}
+
+#lifestyle .lifestyle-heading .food-style {
+	border-bottom: 5px solid #C1A57B;
+}
+#lifestyle .container {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+#lifestyle .lifestyle-content {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Playfair Display', serif;
+}
+#lifestyle .lifestyle-content .lifestyle-info {
+	margin-top: 4rem;
+	margin-left: 2rem;
+	line-height: 1.7em;
+	font-size: 12px;
+}
+
+#lifestyle .lifestyle-content img {
+	width: 200px;
+	height: 150px;
+	margin-top: 4rem;
+}
+
+
+
+
+/*footer*/
+#footer {
+	border-top: 1px solid #adabab;
+	height: 150px;
+	margin: 5rem 0 0 0;
+	margin: 5rem 8rem;
+}
+#footer .footer-icon ul {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	list-style: none;
+}
+
+#footer .footer-icon ul a {
+	margin-top: 1rem;
+	padding: 1rem;
+	margin: 2px;
+	border-radius: 5px;
+	/*background: #fff;*/
+}
+
+
+#footer .footer-content {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	margin: 2rem 0 0 0;
+}
+
+
+/*_____________________contact_________________________________*/
+
